@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1>To-Do List <img src="img/note.png" /></h1>
+      <section class="row">
+        <input id="user" placeholder="Add your to do" />
+        <button id="add">Add</button>
+      </section>
+
+      <section class="">
+        <ul class="tabs">
+          <li id="all" class="on">ALL</li>
+          <li id="ongoing">ONGOING</li>
+          <li id="done">DONE</li>
+        </ul>
+        <div id="taskBoard">
+          <h4>Today plan 📌</h4>
+          <!-- <div class="task">
+            <div>강아지 산책시키기</div>
+            <div>
+              <button>check</button>
+              <button>delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="">
+        <div class="memo">
+          <h4>⭐MEMO⭐</h4>
+          <input placeholder="입력해주세요" />
+          <input />
+          <input />
+          <input />
+        </div>
+      </section>
+    </div>
+
+    <script src="custom.js"></script>
+  </body>
+</html>
